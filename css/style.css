@@ -31,3 +31,68 @@ h1, h2, h3, h4, h5, h6{
 h1{
     font-size: 50px;
 }
+
+/*------------ HEADER--------- */
+
+header::before{
+    content:"";
+    display: block;
+    margin-bottom: 80px;
+
+}
+
+nav{
+    width:100%;
+    height:80px;
+    background: #fff;
+    border-bottom: 1px solid transparent;
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .2);
+    position: fixed;
+    top:0;
+    z-index:100;
+
+    /*transition: ease-in-out 0.5s;*/
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  align-items: center;
+}
+
+.nav .logo{
+    height:80px;
+}
+
+.nav .logo img{
+    height: 100%;
+    vertical-align:top;
+}
+
+.enlaces-header{
+    font-weight: 300;
+}
+
+.nav .enlaces-header a{
+  color: #5D6678;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.hamburger{
+    width: 80px;
+    height: 80px;
+    display: none;
+    text-align: center;
+    z-index: 100;
+    cursor: pointer;
+   /* transition: color 0.5s ease-in; */
+}
+
+.hamburger > i{
+    font-size: 25px;
+    line-height: 80px;
+
+}
