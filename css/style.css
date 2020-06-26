@@ -96,3 +96,15 @@ nav{
     line-height: 80px;
 
 }
+
+.contenido-header{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenido-header > img{
+    width: 550px;
+}
