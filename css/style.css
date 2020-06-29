@@ -145,3 +145,21 @@ nav{
     box-shadow: 0 8px 32px rgba(31, 222, 130, .46);
 
 }
+
+.titulo{
+    font-size: 50px;
+}
+
+/*----------About---------*/
+
+.about-us{
+    background: #f2f2f2;
+}
+
+.contenedor-articulo{
+
+}
+
+.articulo{
+    width: 29%;
+}
