@@ -325,3 +325,14 @@ nav{
     color:#1FDE82;
     transition: color .5s;
 }
+
+.results{
+    background: #2570ff;
+    padding-top: 30px;
+}
+
+.conten-results {
+    display: flex;
+    justify-content: space-evenly;
+   
+}
