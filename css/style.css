@@ -363,3 +363,12 @@ nav{
     color:#f2f5fc;
     font-weight:300;
 }
+
+.results-text{
+    width:37%;
+}
+
+.results-text h4{
+    color:#fff;
+    font-size:40px;
+}
