@@ -358,3 +358,8 @@ nav{
     font-weight:500;
     margin-bottom:20px;
 }
+
+.numbers .number p {
+    color:#f2f5fc;
+    font-weight:300;
+}
