@@ -351,3 +351,10 @@ nav{
     padding:40px 35px;
     margin-bottom: 20px;
 }
+
+.numbers .number h4{
+    color: #fff;
+    font-size:50px;
+    font-weight:500;
+    margin-bottom:20px;
+}
