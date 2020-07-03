@@ -326,6 +326,8 @@ nav{
     transition: color .5s;
 }
 
+/*-------RESULTS-----------*/
+
 .results{
     background: #2570ff;
     padding-top: 30px;
@@ -389,3 +391,19 @@ nav{
     text-align:center;
     border-radius:5px;
 }
+
+/*-------SERVICE-------*/
+
+.services{
+    display: flex;
+    justify-content: space-between;
+}
+
+.services > img{
+    width: 500px;
+}
+
+.box-skills{
+    
+}
+
