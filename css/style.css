@@ -401,9 +401,23 @@ nav{
 
 .services > img{
     width: 500px;
+    margin-top: 30px;
 }
 
 .box-skills{
-    
+    margin: 30px 30px 0 0;
 }
 
+.box-skills h4{
+    font-size: 24px;
+    background: #f2f2f2;
+    width: 350px;
+    border-radius: 6px;
+    padding: 10px 0 10px 15px;
+    margin-bottom: 10px;
+}
+
+.box-skills i{
+    
+    font-size: 20px;
+}
