@@ -510,5 +510,27 @@ footer{
 /*---------RESPONSIVE--------*/
 
 @media screen and (max-width:800px){
+  .titulo{
+      font-size: 45px;
+  }
 
+  .contenido-header{
+      flex-direction: column-reverse;
+      justify-content: space-evenly;
+      height: 720px;
+  }
+
+  .contenido-header > img{
+      width: 400px;
+  }
+
+  .textos-header{
+      margin: 0;
+  }
+
+  /*---ABOUT----*/
+
+  .articulo{
+      width: 45%;
+  }
 }
