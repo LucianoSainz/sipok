@@ -60,6 +60,7 @@ nav{
   height: 80px;
   width: 100%;
   align-items: center;
+  padding: 0 40px;
 }
 
 .nav .logo{
@@ -218,7 +219,6 @@ nav{
 /*----- QUESTIONS--------------*/
 
 .questions {
-    width: 100%;
     height: 600px;
     display: flex;
     justify-content: space-between;
@@ -505,4 +505,10 @@ footer{
     background-color: #1FDE82;
     border-color: #1FDE82;
     
+}
+
+/*---------RESPONSIVE--------*/
+
+@media screen and (max-width:800px){
+
 }
