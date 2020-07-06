@@ -597,5 +597,34 @@ footer{
   .partFooter > img{
       width: 140px;
   }
+}
 
+@media screen and (max-width:600px){
+    .titulo{
+        font-size: 35px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    .contenido-header{
+        height: 650px;
+    }
+
+    .nav{
+        padding: 0 10px;
+    }
+
+    .contenido-header > img{
+        width: 200px;
+    }
+
+    .enlaces-header{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
 }
