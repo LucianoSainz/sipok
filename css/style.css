@@ -617,7 +617,7 @@ footer{
     }
 
     .contenido-header > img{
-        width: 200px;
+        width: 300px;
     }
 
     .enlaces-header{
@@ -626,5 +626,44 @@ footer{
 
     .hamburger{
         display: block;
+    }
+
+    /*-----ABOUT----*/
+
+    .articulo{
+        width: 95%;
+    }
+
+    /*----QUESTIONS-----*/
+
+    .questions > img{
+        width: 300px;
+    }
+
+    /*-----RESULTS-----*/
+
+    .numbers .number{
+        width: 95%;
+    }
+
+    .results-text h4{
+       font-size: 35px;
+    }
+
+    /*---SERVICES---*/
+
+    .services > img{
+        width: 300px;
+    }
+
+    .box-skills h4{
+        width: 100%;
+    }
+
+    /*----FOOTER----*/
+
+    .partFooter{
+        width: 95%;
+        margin-bottom: 40px;
     }
 }
