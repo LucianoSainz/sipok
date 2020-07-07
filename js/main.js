@@ -1,3 +1,7 @@
+
+  AOS.init();
+
+
 let ubicacionPrincipal = window.pageYOffset;
 
 window.addEventListener("scroll", function(){
