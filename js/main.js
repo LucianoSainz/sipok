@@ -38,6 +38,32 @@ uber = $("#uber").offset().top,
 questions = $("#questions").offset().top,
 info = $("#info").offset().top;
 
+$("#btn-content").on("click", function(e){
+    e.preventDefault();
+    $("html, body").animate({
+        scrollTop: contentUns -200
+    }, 500);
+});
 
+$("#btn-uber").on("click", function(e){
+    e.preventDefault();
+    $("html, body").animate({
+        scrollTop: uber 
+    }, 500);
+});
+
+$("#btn-questions").on("click", function(e){
+    e.preventDefault();
+    $("html, body").animate({
+        scrollTop: questions
+    }, 700);
+});
+
+$("#btn-info").on("click", function(e){
+    e.preventDefault();
+    $("html, body").animate({
+        scrollTop: info
+    }, 900);
+});
 
 });
