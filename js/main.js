@@ -1,7 +1,6 @@
 
-  AOS.init();
-
-
+$(document).ready(function(){
+    AOS.init();
 let ubicacionPrincipal = window.pageYOffset;
 
 window.addEventListener("scroll", function(){
@@ -32,3 +31,13 @@ document.querySelectorAll(".hamburguer")[0].addEventListener("click", function()
     
     enlacesHeader.classList.toggle("menudos")
 })
+
+
+var contentUns =$("#content").offset().top,
+uber = $("#uber").offset().top,
+questions = $("#questions").offset().top,
+info = $("#info").offset().top;
+
+
+
+});
