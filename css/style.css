@@ -446,6 +446,11 @@ footer {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: auto;
+    
+}
+
+.create{
+    font-size: 15px;
 }
 
 .partFooter {
@@ -499,7 +504,9 @@ footer {
     border-color: #1fde82;
 }
 
-/*---------RESPONSIVE--------*/
+
+
+/*---------RESPONSIVE----------------------------------*/
 
 @media screen and (max-width: 800px) {
     .titulo {
@@ -590,6 +597,7 @@ footer {
         width: 140px;
     }
 }
+
 
 @media screen and (max-width: 600px) {
     .titulo {
